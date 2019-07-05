@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://img.glyphs.co/img?q=85&w=900&src=aHR0cHM6Ly9zMy5tZWRpYWxvb3QuY29tL3Jlc291cmNlcy9HZW9tZXRyaWMtQmFja2dyb3VuZC1QYXR0ZXJucy1QcmV2aWV3LTJiLmpwZw==);
+}
+h1 {
+    display: inline-block;
+    color: white;
+    background-color: #FF8900;
+    font-size: 28px;
+    padding: 17px 2px 17px 2px;
+    margin: 10px 0 5px 10px;
+    font-weight: bold;
+}
+#random-container {
+    /* height: 120px; */
+    display: flex;
+}
+#random-number {
+    height: 120px; 
+    width: 240px;
+    padding: 5px;
+    background-color: lightgreen;
+    display: inline-block;
+    margin: 5px 5px 5px 10px;
+    font-size: 32px;
+    color: purple;
+}
+p {
+    padding: 10px;
+    color: green;
+    font-size: 20px;
+}
+#instructions {
+    display: inline-block;
+    height: 510px;
+    width: 480px;
+    background-color: bisque;
+    margin: 5px 10px;
+    padding: 10px 2px 0 2px;
+    font-weight: bold;
+}
+#score-box {
+    display: inline-block;
+    height: 120px;
+    width: 75px;
+    font-size: 20px;
+    background-color: aquamarine;
+    margin: 5px;
+    padding: 5px;
+}
+.button-gem {
+    height: 80%;
+    width: auto;
+}
+button {
+    margin: 5px 10px;
+    border: 0;
+    padding: 0;
+    background: 0;
+    object-fit: cover;
+}
+.score {
+    padding: 10px 0;
+}
+#total-score {
+    padding: 5px;
+    background-color: lightseagreen;
+    color: white;
+    margin: 5px 10px;
+    font-size: 20px;
+    width: 240px;
+}
+#total {
+    padding: 5px;
+    background-color: lightseagreen;
+    color: white;
+    margin: 10px 0 30px 10px;
+    font-size: 32px;
+    height: 120px;
+    width: 240px;
+}
