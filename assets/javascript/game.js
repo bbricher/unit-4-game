@@ -47,11 +47,27 @@ function startGame() {
     console.log(greenGemElement);
 }
 startGame();
-/* 3. generate random number */
-/* 4. randomize numbers assigned to each gem */
+
+$(document).ready(function() {
+
+    $(".button-gem").on("click", function() {
+        var totalScoreInt = parseInt(totalScore);
+        var gemValueInt = parseInt($(this).val());
+        totalScore = totalScoreInt + gemValueInt;
+        totalScoreElement.text(totalScore);
+    })
+
+
+
+
+
+
+
+
+
+
+
+});
 /* 5. create logic to add up button clicks */
 /* 6. create if statements for wins/losses */
 
-
-
-    
